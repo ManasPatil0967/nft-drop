@@ -1,0 +1,33 @@
+{
+  "program": {
+    "candyMachine": "Dhewh4XuiHpz3QyKcyDwg6c6Q5f8xeNDP3VCsH9ZTAmb",
+    "candyMachineCreator": "EXX6gtG1eAUf9phc4mZe5wvKqM7AbBkBk1KpaxNs5skb",
+    "collectionMint": ""
+  },
+  "items": {
+    "0": {
+      "name": "Sparrow",
+      "image_hash": "959e71a832c94303a146e2b84e3078875ef2ec2b999d2e0b35edd51857a5bbf3",
+      "image_link": "https://nftstorage.link/ipfs/bafybeiahv6k44mgkg3l6eazjdvkz5rz2ygwjunv3inivgffkgkfhr6vrni/0.png",
+      "metadata_hash": "0c0855559d5ef85d46bb3f0870e36e11a687f07bedd9407fa8407ba4b8acf8b8",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeihxxbrab6miicu3yvmifvb76akhjjxzismdoeowqmubexjdjgc6vq/0.json",
+      "onChain": true
+    },
+    "1": {
+      "name": "Shiva",
+      "image_hash": "6c0fb24fa634c7cab52cd5fffcb21d7f77d8fe188d637652e17cfe8e98c9ba45",
+      "image_link": "https://nftstorage.link/ipfs/bafybeiahv6k44mgkg3l6eazjdvkz5rz2ygwjunv3inivgffkgkfhr6vrni/1.png",
+      "metadata_hash": "c8c56b79a364e8b1d588c88a7ac4b082f6387d0ec5785c9ad06a76f8b246d77f",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeihxxbrab6miicu3yvmifvb76akhjjxzismdoeowqmubexjdjgc6vq/1.json",
+      "onChain": true
+    },
+    "2": {
+      "name": "Tchaikovsky",
+      "image_hash": "ea2d1062499d944f044ded77e39c48e3ed83777c4b648429ed4ef28890310238",
+      "image_link": "https://nftstorage.link/ipfs/bafybeiahv6k44mgkg3l6eazjdvkz5rz2ygwjunv3inivgffkgkfhr6vrni/2.png",
+      "metadata_hash": "215abf6f8715308f0591560aecc3e8655623b029a1d6be1a684490a8d9df88ae",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeihxxbrab6miicu3yvmifvb76akhjjxzismdoeowqmubexjdjgc6vq/2.json",
+      "onChain": true
+    }
+  }
+}
