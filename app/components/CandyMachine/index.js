@@ -356,26 +356,17 @@ const getCandyMachineState = async () => {
 
 
       return (
-        candyMachine && candyMachine.state && (
-          <div className="">
-            {renderDropTimer()}
-            <p className='text-center text-white font-light mt-[-20px]'>{`NFTs Minted: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
-              {/* Check to see if these properties are equal! */}
-              {candyMachine.state.itemsRedeemed === candyMachine.state.itemsAvailable ? (
-                <p className="my-[5vh] text-white text-center font-light rounded-lg bg-red-500">Sold Out 🙊</p>
-              ) : ( isbeforeTime==true ? '' :
-              <div className='flex'>
-                <button
-                  className=" mx-auto px-5 font-light text-2xl inline-block bg-[#ffff] p-2 text-[#005544] rounded-full mt-[0px]"
-                  onClick={mintToken}
-                >
-                  Mint NFT
-                </button> 
-                </div>
-              )}
-          </div>
-        )
-      );
+    // Only show this if candyMachine and candyMachine.state is available
+    candyMachine && candyMachine.state && (
+      <div className="machine-container">
+        <p>{`Drop Date: ${candyMachine.state.goLiveDateTimeString}`}</p>
+        <p>{`Items Minted: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
+        <button className="cta-button mint-button" onClick={mintToken}>
+            Mint NFT
+        </button>
+      </div>
+    )
+  );
 };
 
 
