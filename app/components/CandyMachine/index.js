@@ -164,7 +164,7 @@ const getCandyMachineState = async () => {
             ? (await getAtaForMint(candyMachine.state.tokenMint, walletAddress.publicKey))[0]
             : walletAddress.publicKey;
 
-        const candyMachineAddress = candyMachine.id;
+        const candyMachineAddress = process.env.NEXT_PUBLIC_CANDY_MACHINE_ID;
         const remainingAccounts = [];
         const signers = [mint];
         const cleanupInstructions = [];
