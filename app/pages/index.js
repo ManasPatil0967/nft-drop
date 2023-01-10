@@ -12,7 +12,7 @@ const Home = () => {
     // Actions
     const renderNotConnectedContainer = () => (
         <div>
-            <img src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif" alt="emoji" />
+            <img src="https://media.giphy.com/media/5fQyd7jM58m5y/giphy.gif" alt="emoji" />
 
             <div className="button-container">
                 <WalletMultiButton className="cta-button connect-wallet-button" />
